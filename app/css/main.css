@@ -77,7 +77,7 @@ body {
 
 /**Header block start*/
 .headers {
-  background-image: url("../images/header-bg-min.jpg");
+  background-image: url("../images/klav-min.jpg");
   background-repeat: repeat-x;
   background-position: top center;
   min-height: 900px; /*677px*/
@@ -86,9 +86,12 @@ body {
 }
 .top-fon {
   min-height: 900px; /*677px*/
-  -webkit-box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
+/*  -webkit-box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
 	box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
-	background-color:rgba(15,15,15,.80);
+	background-color:rgba(15,15,15,.80);*/
+	-webkit-box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
+	box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
+	background-color:rgba(20,3,39,.90);
   margin: 0 auto;
   position: relative;
 }
