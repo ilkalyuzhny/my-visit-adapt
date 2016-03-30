@@ -26,6 +26,11 @@ body textarea:required:valid {
 body {
   font: normal 1em 'fira_sanslight';
 }
+img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .menu {
   width: 100%;
@@ -61,7 +66,7 @@ body {
 .navigation-link {
   display: block;
   color: #AFABCC;
-  font-size: 26px;
+  font-size: 2.5rem; /*26px*/
   font-family: 'fira_sansbook';
   text-decoration: none;
   cursor: pointer;
@@ -69,7 +74,6 @@ body {
 .navigation-link:hover {
   transition: 1s;
   color: #8492FF;
-/*  opacity: 0.5;*/
   border-bottom: solid 1px #8492FF;
 }
 /**Navigatioon Lending end*/
@@ -81,14 +85,13 @@ body {
   background-repeat: repeat-x;
   background-position: top center;
   min-height: 900px; /*677px*/
+	/*height: 100vh;*/
   position: relative;
   background-size: cover;
 }
 .top-fon {
   min-height: 900px; /*677px*/
-/*  -webkit-box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
-	box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
-	background-color:rgba(15,15,15,.80);*/
+/*	height: 100vh;*/
 	-webkit-box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
 	box-shadow:rgba(255,255,255,.3) 0 0 0 1px;
 	background-color:rgba(20,3,39,.90);
@@ -97,7 +100,7 @@ body {
 }
 .header-text {
   color: #8492FF; /*#cecece*/
-  font-size: 26px;
+  font-size: 4rem; /*26px*/
   font-family: 'fira_sansbook';
   text-align: center;
   padding-bottom: 10px;
@@ -135,10 +138,10 @@ body {
   font-family: 'fira_sansmedium';
 }
 .skills {
-  width: 300px; /*237px*/
+  width: 400px; /*237px*/
   position: relative;
   top: -20px; /*-34px*/
-  left: -100px; /*70px*/
+  left: -30px; /*70px*/
   float: right;
   display: block;
 }
@@ -165,6 +168,7 @@ body {
   background-color: #EFE5CA; /*#DBCAB8*/
   position: relative;
   margin: 0 auto;
+/*	height: 100vh;*/
   overflow: hidden;
 }
 .header-text-portf {
@@ -616,32 +620,24 @@ input:focus:-ms-input-placeholder {
   color: #fff;
   background: red;
 }
-
-.hex-simple .a {
-  width: 0;
-  border-bottom: 17px solid #252525;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: relative;
-  top: 0px;
-}
 .hex-simple .b {
   width: 60px;
-  height: 35px;
-  background-color: #252525;
+  height: 60px;
   line-height: 35px;
   text-align: center;
+	background-color: #7A53EF;
+	border-radius: 15px;
+}
+.hex-simple .b:hover {
+  width: 60px;
+  height: 60px;
+  line-height: 35px;
+  text-align: center;
+	background-color: #997DED;
+	border-radius: 15px;
 }
 .soc-buttons {
-  padding-top: 0px;
-}
-.hex-simple .c {
-  width: 0;
-  border-top: 17px solid #252525;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: relative;
-  top: 0px;
+  padding-top: 19px;
 }
 /**Block soc buttons end*/
 /**Section Four slide Footer end*/
