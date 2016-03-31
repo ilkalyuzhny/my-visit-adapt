@@ -51,7 +51,6 @@ img-responsive {
   text-align: center;
   position: relative;
   top: 20px;
-  left: -78px;
 }
 .navigation .navigation-list {
   list-style: none;
@@ -161,9 +160,20 @@ img-responsive {
   border-radius: 4px;
   text-decoration: none;
 }
-/**Section One slide end*/
+/**Section slide end*/
 
-/**Section Two slide Portfolio start*/
+/**Section slide Skills start*/
+.myskills {
+	min-height: 700px;
+	background-color: #DBBFFF; /*#efe5ca*/
+  position: relative;
+  margin: 0 auto;
+/*	height: 100vh;*/
+  overflow: hidden;
+}
+/**Section slide end*/
+
+/**Section slide Portfolio start*/
 .portfolio {
   background-color: #f2f2f2; /*#efe5ca*/
   position: relative;
@@ -246,9 +256,9 @@ img-responsive {
 .project-block:hover .image-item {
 	background-color: #504596;
 }
-/**Section Two slide Portfolio end*/
+/**Section slide Portfolio end*/
 
-/**Section Three slide Contacts start*/
+/**Section slide Contacts start*/
 .contaction {
   min-height: 750px;
   background-color: #2f2f2f; /*#8c89b5*/
@@ -530,81 +540,45 @@ input:focus:-ms-input-placeholder {
 .button.clear:hover {
 	border-bottom-color:transparent;
 }
-/**Section Three slide Contacts end*/
+/**Section slide Contacts end*/
 
-/**Section Four slide Footer start*/
+/**Section slide Footer start*/
 .footers {
-  min-height: 300px;
+  min-height: 180px;
   background-color: #2B2B38;
   position: relative;
   margin: 0 auto;
   overflow: hidden;
 }
-/**Nizhnyaa navigation start*/
-.footer-navigation {
-  float: left;
-  position: relative;
-  top: 50px;
-  left: 95px;
-  overflow: hidden;
-  padding: 5px;
-}
-.footer-navigation .footer-navigation-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.footer-navigation .footer-navigation-item {
-  display: block;
-  margin: 0;
-  padding: 0 15px 0 15px;
-/*  padding: 0 20px 0 20px;*/
-}
-.footer-navigation-link {
-  display: block;
-  color: #AFABCC;
-  font-size: 20px;
-  font-family: 'fira_sansbook';
-  text-decoration: none;
-  cursor: pointer;
-  transition: 1s;
-  opacity: 0.5;
-  -moz-transition: color 0.1s 0.01s ease;
-  -o-transition: color 0.1s 0.01s ease;
-  -webkit-transition: color 0.1s 0.01s ease;
-}
-.footer-navigation-link:hover {
-  transition: 1s;
-  color: #8A7FE2;
-  opacity: 1.0;
-}
-.footer-navigation-link:hover:after,
-.footer-navigation-link:focus:after {
-  width: 100%;
-}
-/**Nizhnyaa navigation end*/
-.logo-min {
-  float: right;
-  position: relative;
-  top: 50px;
-  right: 15px;
+.copiright {
+	position: relative;
+	top:40px;
+	margin: 0 auto;
+	color: #fff;
+	font-family: 'Lato Light';
+	text-align: center;
 }
 /**Block soc buttons start*/
+.block-footer-socials {
+  position: relative;
+	top: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
 .footer-social {
-  float: right;
-  display: block;
+/*  display: block;
   position: relative;
   top: 30px;
   right: 10px;
   padding: 20px 0 30px 0;
-  overflow: hidden;
+  overflow: hidden;*/
 }
 
 .footer-social li {
+	display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
-  float: right;
   margin-right: 20px;
 }
 .footer-social li a {
@@ -612,23 +586,25 @@ input:focus:-ms-input-placeholder {
   background: red;
 }
 .hex-simple .b {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   line-height: 35px;
   text-align: center;
-	background-color: #7A53EF;
+	background-color: #2B2B38;
 	border-radius: 15px;
+	border: 1px solid #fff;
 }
 .hex-simple .b:hover {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   line-height: 35px;
   text-align: center;
-	background-color: #997DED;
+	background-color: #46465B; /*#997DED*/
 	border-radius: 15px;
+	border: 1px solid #fff;
 }
 .soc-buttons {
-  padding-top: 19px;
+  padding-top: 14px;
 }
 /**Block soc buttons end*/
-/**Section Four slide Footer end*/
+/**Section slide Footer end*/
