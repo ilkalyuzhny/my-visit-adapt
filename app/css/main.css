@@ -136,42 +136,41 @@ img-responsive {
   font-size: 18px;
   font-family: 'Raleway Medium';
 }
-.skills {
-  width: 400px; /*237px*/
-  position: relative;
-  top: -20px; /*-34px*/
-  left: -30px; /*70px*/
-  float: right;
-  display: block;
-}
-.skills-ikons {
-  display: inline-block;
-  padding: 0px 12px;
-	margin: 5px;
-  color: #ffffff;
-  font-family: 'Raleway Medium';
-  font-size: 12px;
-  background: rgb(59,168,192);D3D3D3
-  background: -moz-linear-gradient(top,  rgba(59,76,151,1) 0%, rgba(59,76,151,1) 50%, rgba(65,84,161,1) 50%, rgba(65,84,161,1) 100%);
-  background: -webkit-linear-gradient(top,  rgba(59,76,151,1) 0%,rgba(59,76,151,1) 50%,rgba(65,84,161,1) 50%,rgba(65,84,161,1) 100%);
-  background: linear-gradient(to bottom,  rgba(59,76,151,1) 0%,rgba(59,76,151,1) 50%,rgba(65,84,161,1) 50%,rgba(65,84,161,1) 100%);65
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  text-decoration: none;
-}
 /**Section slide end*/
 
 /**Section slide Skills start*/
 .myskills {
 	min-height: 700px;
-	background-color: #DBBFFF; /*#efe5ca*/
+	background-color: #E5DDFF; /*#efe5ca*/
   position: relative;
   margin: 0 auto;
 /*	height: 100vh;*/
   overflow: hidden;
 }
-/**Section slide end*/
+.my-skills-block {
+	width: 700px;
+  position: relative;
+	margin: 0 auto;
+}
+.skills {
+  position: relative;
+  display: block;
+}
+.skills-ikons {
+  display: inline-block;
+  padding: 30px 30px;
+	margin: 10px;
+  color: #ffffff;
+  font-family: 'Raleway Medium';
+  font-size: 16px;
+	background: #798AD8; /* Для старых браузров */
+  background: linear-gradient(to bottom, #798AD8, #A0AAD6);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+/**Section slide Skills end*/
 
 /**Section slide Portfolio start*/
 .portfolio {
@@ -602,6 +601,7 @@ input:focus:-ms-input-placeholder {
 	background-color: #46465B; /*#997DED*/
 	border-radius: 15px;
 	border: 1px solid #fff;
+	transition: 1s;
 }
 .soc-buttons {
   padding-top: 14px;
