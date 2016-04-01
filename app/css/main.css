@@ -192,7 +192,7 @@ img-responsive {
 /*  text-transform: uppercase;*/
 }
 .portfolio-content {
-  padding: 0 50px 0 50px;
+  padding: 0 90px 0 90px;
   text-align: center;
 }
 .projects {
@@ -201,7 +201,7 @@ img-responsive {
 }
 .project-block {
   display: inline-block;
-  width: 300px;
+  width: 600px;
   vertical-align: top;
   position: relative;
   padding-bottom: 30px;
@@ -210,7 +210,7 @@ img-responsive {
 .image-item {
   border: 2px solid #504596;
   border-radius: 5px;
-  height: 200px;
+  height: 400px;
   margin-bottom: 10px;
   overflow: hidden;
 }
@@ -220,7 +220,7 @@ img-responsive {
 .image-link {
   position: absolute;
   width: 100%;
-  top: 92px;
+  top: 190px;
   text-align: center;
   transform: scale(0);
   -webkit-transform: scale(0);
@@ -253,7 +253,30 @@ img-responsive {
   filter: alpha(opacity=35);
 }
 .project-block:hover .image-item {
-	background-color: #504596;
+	background-color: #000;
+}
+.project-block-text {
+	display: inline-block;
+	width: 330px;
+  vertical-align: top;
+  position: relative;
+	top: 80px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.header-h3 {
+	color: #34495e;
+	font-family: 'Lato';
+	font-size: 2rem;
+	text-align: center;
+}
+.project-info {
+	color: #95a5a6;
+	font-family: 'Raleway  Light';
+	font-size: 1.5rem;
+	padding: 0 5px 0 5px;
+	text-align: justify;
+	line-height: 30px;
 }
 /**Section slide Portfolio end*/
 
@@ -392,32 +415,6 @@ img-responsive {
 	margin-bottom: 15px;
 	margin-right: 0px;
 }
-/*
-.block-kapcha {
-	margin-bottom: 20px;
-}
-.kapcha {
-  width: 180px;
-	height: 78px;
-	position: relative;
-	margin-right: 15px;
-	margin-bottom: 25px;
-  padding-left: 10px;
-  float: left;
-  color:#67dffa;
-  background-color: #ffffff;
-  border:1px solid #67dffa;
-	border-radius: 4px;
-}
-.kapcha-image {
-	position: absolute;
-	top: 20px;
-	left: 20px;
-}
-.block-code {
-	float: right;
-}
-*/
 input::-webkit-input-placeholder {
 	color: #fff; /*67dffa*/
 	font-size: 13px;
