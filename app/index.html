@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/main.css" media="screen, projection, print">
   <link rel="stylesheet" href="fonts/fira.css">
   <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
 
   <!--script src="/js/_vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script-->
@@ -44,16 +45,16 @@
           <nav id="menu" class="navigation">
             <ul class="navigation-list">
               <li class="navigation-item">
-                <a class="navigation-link" href="#box1">Обо мне</a>
+                <a class="navigation-link" href="#box2">Обо мне</a>
               </li>
               <li class="navigation-item">
-                <a class="navigation-link" href="#box2">Мои навыки</a>
+                <a class="navigation-link" href="#box3">Мои навыки</a>
               </li>
               <li class="navigation-item">
-                <a class="navigation-link" href="#box3">Портфолио</a>
+                <a class="navigation-link" href="#box4">Портфолио</a>
               </li>
               <li class="navigation-item">
-                <a class="navigation-link" href="#box4">Контакты</a>
+                <a class="navigation-link" href="#box5">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -63,50 +64,101 @@
   </div>
   <header id="box1" class="headers">
     <div class="top-fon">
-      <div class="col-md-12">
-	  		<div class="row">
-          <h2 class="header-text">Обо мне</h2>
-          <div class="content-headers">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-5">
-                  <div class="image-block">
-                    <div class="avatar">
-                      <img class="" src="images/fot_min.jpg" alt=""></img>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                  <div class="info-block">
-                    <p><span class="info-text">Меня зовут:</span> Калюжный Илья Сергеевич</p>
-                    <p><span class="info-text">Мой возраст:</span> 23 года</p>
-                    <p><span class="info-text">Мой город:</span> Москва</p>
-                    <p><span class="info-text">Моя специализация:</span> FRONTEND разработчик</p>
-                    <!--p><span class="info-text">Ключевые навыки:</span></p>
-                        <ul class="skills">
-                          <li class="skills-ikons">html</li>
-                          <li class="skills-ikons">css</li>
-                          <li class="skills-ikons">jquery</li>
-                          <li class="skills-ikons">php</li>
-                          <li class="skills-ikons">mysql</li>
-                          <li class="skills-ikons">bower</li>
-                          <li class="skills-ikons">bootstrap</li>
-                          <li class="skills-ikons">gulp</li>
-                          <li class="skills-ikons">git</li>
-                          <li class="skills-ikons">adobe photoshop</li>
-                          <li class="skills-ikons">wordpress</li>
-                          <li class="skills-ikons">moguta</li>
-                        </ul-->
-                  </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="content-headers">
+              <h1 class="header-text-big">Илья Калюжный</h1>
+              <h2 class="header-text">Frontend-разработчик - kai3014@gmail.com</h2>
+              <a class="button-bottom-scroll" href="#box2">
+                <i class="fa fa-angle-double-down fa-stack-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a class="button-top-scroll" href="#box2">Ping</a>
+          </div>
+        </div>
+      </div-->
+    </div>
+  </header>
+  <section id="box2" class="about">
+    <div class="container">
+      <div class="row">
+        <h2 class="header-text-portf">Обо мне</h2>
+        <div class="col-md-4">
+          <div class="left-services">
+            <div class="service-item">
+              <h3 class="about-left-h3">Имя Фамилия</h3>
+              <div class="service-left-text">Илья Калюжный</div>
+              <div class="about-left-ikons">
+                <i class="fa fa-user fa-stack-2x"></i>
               </div>
             </div>
           </div>
-			  </div>
+          <div class="left-services">
+            <div class="service-item">
+              <h3 class="about-left-h3">Возраст</h3>
+              <div class="service-left-text">23 года</div>
+              <div class="about-left-ikons">
+                <i class="fa fa-clock-o fa-stack-2x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="left-services">
+            <div class="service-item">
+              <h3 class="about-left-h3">Адрес</h3>
+              <div class="service-left-text">Москва, Россия</div>
+              <div class="about-left-ikons">
+                <i class="fa fa-home fa-stack-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="image-block">
+            <div class="avatar">
+              <img class="" src="images/.jpg" alt=""></img>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="right-services">
+            <div class="service-item">
+              <h3 class="about-right-h3">Телефон</h3>
+              <div class="service-right-text">+7 985 280 46 84</div>
+              <div class="about-right-ikons">
+                <i class="fa fa-phone fa-stack-2x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="right-services">
+            <div class="service-item">
+              <h3 class="about-right-h3">Email</h3>
+              <div class="service-right-text">kai3014@gmail.com</div>
+              <div class="about-right-ikons">
+                <i class="fa fa-envelope fa-stack-2x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="right-services">
+            <div class="service-item">
+              <h3 class="about-right-h3">Скайп</h3>
+              <div class="service-right-text">gepaardic</div>
+              <div class="about-right-ikons">
+                <i class="fa fa-skype fa-stack-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    <div>
-  </header>
-  <section id=box2 class="myskills">
+    </div>
+  </section>
+  <section id=box3 class="myskills">
     <div class="container">
       <div class="row">
         <h2 class="header-text-portf">Мои ключевые навыки</h2>
@@ -133,7 +185,7 @@
       </div>
     </div>
   </section>
-  <section id="box3" class="portfolio">
+  <section id="box4" class="portfolio">
     <div class="container">
       <div class="row">
         <h2 class="header-text-portf">Портфолио</h2>
@@ -244,7 +296,7 @@
       </div>
     </div>
   </section>
-  <section id="box4" class="contaction">
+  <section id="box5" class="contaction">
     <div class="container">
       <div class="row">
         <h2 class="header-text-contact">Контакты</h2>
@@ -276,7 +328,7 @@
               </div>
 						  <div class="block-emails">
 							  <label for="email" class="label">E-mail:*</label>
-                <input type="hidden" name="admin_email" value="dangerousspec@inbox.ru">
+                <input type="hidden" name="admin_email" value="kai3014@gmail.com">
 							  <input id="email" type="email" name="E-mail" class="block-textarea emails" required />
               </div>
 						  <label for="message" class="label">Сообщение:</label>
@@ -301,6 +353,11 @@
 						  </div>
 					  </form>
           </div>
+        </div>
+        <div class="col-md-12">
+          <a class="button-top-scroll" href="#box1">
+            <i class="fa fa-angle-double-up fa-stack-2x"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -354,11 +411,11 @@
   </footer>
 
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
   <!--script>
     window.jQuery || document.write('<script src="/js/_vendors/jquery-1.11.3.min.js"><\/script>');
   </script-->
-  <script type="text/javascript">
+  <!--script type="text/javascript">
     $(document).ready(function () {
       // plavn scroll
       $('a[href^="#"]').click(function () {
@@ -372,11 +429,13 @@
         return false;
       });
     });
-  </script>
+  </script-->
 
   <script src="bower/jquery/jquery.js"></script>
   <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
   <script src="js/common.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/scriptblocker.js"></script>
   <!--script src="https://code.jquery.com/jquery-1.11.3.min.js"></script-->
 	<!--script src="script.js"></script-->
   <!--script src="js/main.js"></script-->

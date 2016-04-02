@@ -31,6 +31,14 @@ img-responsive {
   max-width: 100%;
   height: auto;
 }
+/*p {
+	color: #34495e;
+	font-family: 'Raleway  Light';
+	font-size: 1.5rem;
+	padding: 0 5px 0 5px;
+	text-align: center;
+	line-height: 30px;
+}*/
 
 .menu {
   width: 100%;
@@ -97,6 +105,16 @@ img-responsive {
   margin: 0 auto;
   position: relative;
 }
+.header-text-big {
+	color: #f2f2f2; /*#34495e*/
+  font-size: 6rem; /*26px*/
+  font-family: 'Lato';
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+  top: 250px;
+  margin: 0 auto;
+}
 .header-text {
   color: #f2f2f2; /*#34495e*/
   font-size: 4rem; /*26px*/
@@ -104,28 +122,32 @@ img-responsive {
   text-align: center;
   padding-bottom: 10px;
   position: relative;
-  top: 150px;
+  top: 300px;
   margin: 0 auto;
 }
-.image-block {
-  float: right;
-  width: 176px;
+.button-bottom-scroll {
+	color: #f2f2f2; /*#34495e*/
+  font-size: 2rem; /*26px*/
+  font-family: 'Lato';
+  text-align: center;
+  padding-bottom: 10px;
   position: relative;
-  top: 185px;
+  top: 600px;
+	left: 600px;
+  margin: 0 auto;
 }
-.avatar {
-  width: 180px;
-  height: 180px;
-  border-radius: 50% 50%;
-  overflow: hidden;
-  border: 3px solid #34495e;
+.fa-angle-double-down {
+	color: #fff;
 }
-.info-block {
+.fa-angle-double-down:hover {
+	color: #A6AFDB;
+	transition: 1s;
+}
+/*.info-block {
   float: left;
   position: relative;
   top: 175px;
   line-height: 22px;
-/*  margin: 2px -2px 0px 255px;*/
   color: #fff;
   font-size: 16px;
   font-family: 'Raleway  Light';
@@ -135,8 +157,148 @@ img-responsive {
   color: #fff;
   font-size: 18px;
   font-family: 'Raleway Medium';
-}
+}*/
+
 /**Section slide end*/
+
+/**Section slide About start*/
+.about {
+	min-height: 900px;
+	background-color: #f2f2f2;
+	position: relative;
+	margin: 0 auto;
+	/*height: 100vh;*/
+	overflow: hidden;
+}
+.image-block {
+  width: 340px;
+  position: relative;
+	top: 20px;
+	margin: 0 auto;
+}
+.avatar {
+  width: 340px;
+  height: 340px;
+  border-radius: 50% 50%;
+  overflow: hidden;
+  border: 3px solid #34495e;
+}
+
+.left-services {
+	display: block;
+  margin: 50px 0;
+}
+.service-item {
+	display: block;
+/*	background-color: #8297AD;*/
+	position: relative;
+}
+.about-left-h3 {
+	display: block;
+	color: #34495e;
+	font-family: 'Lato';
+	font-size: 2rem;
+	text-align: right;
+	position: relative;
+	margin: 20px 0 0 0;
+	right: 100px;
+}
+.service-left-text {
+	color: #34495e;
+	font-family: 'Lato Light';
+	font-size: 1.6rem;
+	padding: 0 5px 0 5px;
+	text-align: right;
+	line-height: 30px;
+	position: relative;
+	right: 96px;
+}
+.about-left-ikons {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background-color: #4B5763;
+	position: absolute;
+	top: -2px;
+	left: 270px;
+}
+.fa-user {
+	color: #fff;
+	font-size: 2em;
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+.fa-clock-o {
+	color: #fff;
+	font-size: 2em;
+	position: relative;
+	top: 19px;
+	left: 20px;
+}
+.fa-home {
+	color: #fff;
+	font-size: 2em;
+	position: relative;
+	top: 17px;
+	left: 20px;
+}
+
+.right-services {
+	display: block;
+  margin: 50px 0;
+}
+.about-right-h3 {
+	display: block;
+	color: #34495e;
+	font-family: 'Lato';
+	font-size: 2rem;
+	text-align: left;
+	position: relative;
+	margin: 20px 0 0 0;
+	left: 100px;
+}
+.service-right-text {
+	color: #34495e;
+	font-family: 'Lato Light';
+	font-size: 1.6rem;
+	padding: 0 5px 0 5px;
+	text-align: left;
+	line-height: 30px;
+	position: relative;
+	left: 96px;
+}
+.about-right-ikons {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background-color: #4B5763;
+	position: absolute;
+	top: -2px;
+	right: 270px;
+}
+.fa-phone {
+	color: #fff;
+	font-size: 2em;
+	position: relative;
+	top: 18px;
+	left: 20px;
+}
+.fa-envelope {
+	color: #fff;
+	font-size: 2em;
+	position: relative;
+	top: 18px;
+	left: 20px;
+}
+.fa-skype {
+	color: #fff;
+	font-size: 2em;
+	position: relative;
+	top: 18px;
+	left: 20px;
+}
+/**Section slide About end*/
 
 /**Section slide Skills start*/
 .myskills {
@@ -144,7 +306,7 @@ img-responsive {
 	background-color: #E5DDFF; /*#efe5ca*/
   position: relative;
   margin: 0 auto;
-/*	height: 100vh;*/
+/*height: 100vh;*/
   overflow: hidden;
 }
 .my-skills-block {
@@ -535,6 +697,25 @@ input:focus:-ms-input-placeholder {
 }
 .button.clear:hover {
 	border-bottom-color:transparent;
+}
+
+.button-top-scroll {
+	color: #f2f2f2; /*#34495e*/
+  font-size: 2rem; /*26px*/
+  font-family: 'Lato';
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+  top: 0px;
+	left: 600px;
+  margin: 0 auto;
+}
+.fa-angle-double-up {
+	color: #fff;
+}
+.fa-angle-double-up:hover {
+	color: #A6AFDB;
+	transition: 1s;
 }
 /**Section slide Contacts end*/
 
