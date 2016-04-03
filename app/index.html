@@ -155,10 +155,22 @@
             </div>
           </div>
         </div>
+        <div class="education">
+          <h3 class="about-education-h3">Образование</h3>
+          <div class="col-md-3">
+            <div class="dates">2010-2015</div>
+          </div>
+          <div class="col-md-9">
+            <div class="education-text">
+              Московский Государственный Университет Приборостроения и Информатики (МГУПИ)
+              Специальность: "Вычислительные машины, комплексы, системы и сети"
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <section id=box3 class="myskills">
+  <section id="box3" class="myskills">
     <div class="container">
       <div class="row">
         <h2 class="header-text-portf">Мои ключевые навыки</h2>
@@ -206,11 +218,8 @@
                 <div class="">
                   <h3 class="header-h3">Интернет-магазин</h3>
                   <div class="project-info">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Интернет-магазин ювелирных изделий uvelirix.hol.es реализован
+                    на платформе Moguta.CMS с переработкой дизайна.
                   </div>
                 </div>
               </li>
@@ -230,11 +239,8 @@
                 <div class="">
                   <h3 class="header-h3">Представительский сайт</h3>
                   <div class="project-info">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Представительский сайт селигер-стайл.рф реализован на
+                    платформе Wordpress с переработкой дизайна базового шаблона.
                   </div>
                 </div>
               </li>
@@ -254,11 +260,8 @@
                 <div class="">
                   <h3 class="header-h3">Церковно-приходской сайт</h3>
                   <div class="project-info">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Церковно-приходской сайт храма Николая Чудотворца с. Вёска
+                    реализован на платформе Wordpress.
                   </div>
                 </div>
               </li>
@@ -430,12 +433,42 @@
       });
     });
   </script-->
+  <!--script type="text/javascript">
+  $(document).ready(function(){
+	$("#menu").on("click","a", function (event) {
+		//отменяем стандартную обработку нажатия по ссылке
+		event.preventDefault();
+
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+			top = $(id).offset().top;
+
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
+});
+  </script-->
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
 
   <script src="bower/jquery/jquery.js"></script>
   <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
   <script src="js/common.js"></script>
-  <script src="js/scroll.js"></script>
-  <script src="js/scriptblocker.js"></script>
+  <!--script src="js/scroll.js"></script-->
+  <!--script src="js/scriptblocker.js"></script-->
   <!--script src="https://code.jquery.com/jquery-1.11.3.min.js"></script-->
 	<!--script src="script.js"></script-->
   <!--script src="js/main.js"></script-->
