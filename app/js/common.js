@@ -13,4 +13,8 @@ $(document).ready(function() {
 		return false;
 	});
 
+	$(".maian_mnu_button").click(function() {
+		$(".navigation ul").slideToggle();
+	});
+
 });

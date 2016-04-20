@@ -1,3 +1,4 @@
+/*
 $(document).ready(function () {
   // plavn scroll
   $('a[href^="#"]').click(function () {
@@ -10,4 +11,13 @@ $(document).ready(function () {
     }
     return false;
   });
+});
+*/
+$(document).ready(function(){
+   $("#menu").on("click","a", function (event) {
+       event.preventDefault();
+       var id  = $(this).attr('href'),
+           top = $(id).offset().top;
+       $('body,html').animate({scrollTop: top}, 1500);
+   });
 });

@@ -1,53 +1,378 @@
 /*==========  Desktop First Method  ==========*/
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+/* Large Devices, Wide Screens max-width : 1200px */
+@media only screen and (max-width : 1280px) {
 
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+/* Large Devices, Wide Screens max-width : 1198px */
+@media only screen and (max-width : 1198px) {
+	.about-left-ikons {
+		margin-left: -64px;
+	}
+	.left-services {
+		margin: 40px 0;
+	}
 
-	/*.sell_right .button{
-		margin:15px auto;
-		float:none;
-		max-width:250px;
+	.about-right-ikons {
+		margin-right: -54px;
 	}
-	.sell_descr{
-		text-align:center;
+	.right-services {
+		margin: 40px 0;
 	}
-	.maian_mnu ul{
-		background-color:#3797bf;
-		display:none;
-		position:absolute;
-		width:100%;
+
+	.image-sect {
+		width: 90%;
 	}
-	.maian_mnu ul li{
-		display:block;
+}
+
+/* Medium Devices, Desktops (max-width : 992px */
+@media only screen and (max-width : 980px) {
+	.menu {
+		position: relative;
+	}
+
+	.maian_mnu_button {
+		margin-top: -54px;
+		position: relative;
+	/*	left: 500px;*/
+		top: -12px;
+	}
+	.navigation {
+		width: 200px;
+		display: block;
+		background-color: rgba(22,16,30,.4);
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		left: 500px;
+		margin-top: 10px;
+	}
+	.navigation ul {
+		display: block;
+		position: relative;
+	}
+	.navigation ul li {
+		display: block;
+	}
+/*	.navigation .navigation-item {float: none;}*/
+/*	#touch-menu {display: block;}*/
+
+	.headers {
+		min-height: 600px;
+		position: relative;
+	}
+	.header-text-big {
+		font-size: 5rem;
+	  font-family: 'Lato';
+	  text-align: center;
+	}
+	.header-text {
+		margin-top: -50px;
+		font-size: 3rem;
+	  font-family: 'Lato';
+	  text-align: center;
+	}
+
+	.header-text-portf {
+		font-size: 3rem;
+	}
+	.about-left-ikons {
+		margin-left: -65px;
+	}
+	.about-left-h3 {
+		margin: 20px 0 0 400px;
+		text-align: left;
+	}
+	.service-left-text {
+		padding: 0 5px 0 398px;
+		text-align: left;
+	}
+
+	.image-block {
+		width: 340px;
+	}
+
+	.about-right-ikons {
+    margin-right: 169px;
+	}
+	.about-right-h3 {
+		margin: 20px 0 0 211px;
+	}
+	.service-right-text {
+		padding: 0 5px 0 217px;
+	}
+
+	.dates {
+		text-align: center;
+	}
+
+	.contacts {
+		top: none;
+		margin-top: -110px;
+		margin-left: -80px;
+	}
+	.svyaz {
+		margin-top: -166px;
+		margin-left: 4px;
+	}
+
+	.image-sect {
+		width: 90%;
+	}
+
+	.project-block-small {
+		position: relative;
+		top: -100px;
+	}
+
+/*	.project-block-small {
+		top: -70px;
 	}*/
 }
 
-/* Small Devices, Tablets */
+/* Medium Devices, Desktops (max-width : 800px */
+@media only screen and (max-width : 800px) {
+	.logo img {
+		height: 50px;
+	}
+
+	.navigation {
+		margin-right: 20px;
+	}
+
+	.maian_mnu_button {
+		margin: -10px 0;
+	}
+
+	.project-block-small {
+		top: -70px;
+	}
+}
+
+/* Small Devices, Tablets max-width : 768px */
 @media only screen and (max-width : 768px) {
-	/*.top_links{
-		background-color:#51575B;
-		display:none;
-		margin-top:15px;
-		padding:14px;
-		position:absolute;
-		vertical-align:middle;
-		width:100%;
-	}*/
+	.navigation {display: none;}
+
+	.menu {
+		position: relative;
+	}
+
+	.maian_mnu_button {
+		margin-top: -54px;
+		position: relative;
+	/*	left: 500px;*/
+		top: -12px;
+	}
+	.navigation {
+		width: 200px;
+		display: block;
+		background-color: rgba(22,16,30,.4);
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		left: 500px;
+		margin-top: 10px;
+	}
+	.navigation ul {
+		display: block;
+		position: relative;
+	}
+	.navigation ul li {
+		display: block;
+	}
+
+	.header-text-portf {
+		font-size: 3rem;
+	}
+
+	.my-skills-block {
+		width: 80%;
+		text-align: center;
+	}
+
+	.image-sect {
+		width: 90%;
+	}
+
+	.project-block-small {
+		top: -70px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+/*	.navigation {display: none;}
+	.maian_mnu_button {
+		display: none;
+	}*/
+
+	.header-text-portf {
+		font-size: 2.5rem;
+	}
+	.about-left-ikons {
+		margin-left: -200px; /*-160px*/
+	}
+	.about-left-h3 {
+		margin: 20px 0 0 300px;
+		text-align: left;
+	}
+	.service-left-text {
+		padding: 0 5px 0 298px;
+		text-align: left;
+	}
+
+	.about-right-ikons {
+		margin-right: 90px; /*-5px*/
+	}
+	.about-right-h3 {
+		margin: 20px 0 0 111px;
+	}
+	.service-right-text {
+		padding: 0 5px 0 118px;
+	}
+
+	.my-skills-block {
+		width: 80%;
+		text-align: center;
+	}
+	.skills-ikons {
+		padding: 20px 24px;
+	}
+
+	.contacts {
+		margin-left: -30px;
+	}
+	.svyaz {
+		margin-top: 30px;
+		margin-right: -20px;
+	}
+
+	.project-block-small {
+		position: relative;
+		top: -100px;
+		overflow: hidden;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+	.menu {
+		height: 60px;
+	}
+
+	.headers {
+		min-height: 300px;
+		position: relative;
+	}
+	.header-text-big {
+		font-size: 3.5rem;
+	  font-family: 'Lato';
+	  text-align: center;
+		top: 60px;
+	}
+	.header-text {
+		margin-top: -50px;
+		font-size: 2rem;
+	  font-family: 'Lato';
+	  text-align: center;
+		top: 120px;
+	}
+
+	.about-left-ikons {
+		display: none;
+	/*	margin-left: -270px;*/
+	}
+	.about-left-h3 {
+		margin: 20px 0 0 110px;
+		text-align: left;
+	}
+	.service-left-text {
+		padding: 0 5px 0 107px;
+		text-align: left;
+	}
+
+	.about-right-ikons {
+		display: none;
+/*		margin-right: -5px;*/
+	}
+	.about-right-h3 {
+		margin: 20px 0 0 -79px;
+	}
+	.service-right-text {
+		padding: 0 5px 0 118px;
+		margin-left: -191px;
+	}
+
+	.skills-ikons {
+		padding: 15px 20px;
+	}
+
+	.contacts {
+		margin-left: -110px;
+		margin-bottom: 30px;
+	}
+	.svyaz {
+		margin-top: 40px;
+		margin-right: -40px;
+	}
+	.label {
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.4;
+    font-family: 'Lato Light';
+    position: relative;
+  /*  left: -114px;*/
+    top: -1px;
+		padding-left: 112px;
+	}
+
+	.image-sect {
+		width: 150px;
+		text-align: center;
+	}
+
+	.project-block-small {
+		display: block;
+		width: 225px;
+		position: relative;
+		top: -100px;
+		overflow: hidden;
+	}
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.menu {
+		height: 60px;
+	}
 
+	.dates {
+		font-size: 1.5rem;
+	}
+	.education-text {
+		font-size: 1.7rem;
+	}
+
+	.skills-ikons {
+		padding: 9px 12px;
+	}
+
+	.svyaz {
+		margin-top: 40px;
+		margin-right: -80px;
+	}
+
+	.image-sect {
+		margin-left: -70px;
+	}
+
+	.project-block-small {
+		margin-left: -66px;
+	}
 }
 
 
@@ -60,7 +385,9 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+	.image-sect {
+		width: 269px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -68,13 +395,16 @@
 	/*.top_links{
 	display:inline-block !important;
 	}*/
+	.image-sect {
+		width: 90%;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	/*.maian_mnu ul{
+	.navigation ul{
 		display:block !important;
-	}*/
+	}
 }
 
  /* Large Devices, Wide Screens */

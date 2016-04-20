@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="bower/normalize-css/normalize.css">
   <!--css-->
   <link rel="stylesheet" href="css/main.css" media="screen, projection, print">
+  <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="fonts/fira.css">
   <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -37,12 +38,15 @@
 
   <div class="menu">
     <div class="container">
-      <!--div class="col-md-12"-->
+      <div class="col-md-12">
         <div class= "row">
           <a class="logo" href="index.html">
             <img src="images/logo-h.png" alt=""></img>
           </a>
-          <nav id="menu" class="navigation">
+          <!--button class="maian_mnu hidden-md hidden-lg hidden-sm"><i class="fa fa-bars"></i></button-->
+          <!--a href="#" id="touch-menu">Меню</a-->
+          <nav id="menu" class="navigation clearfix">
+          <button class="maian_mnu_button hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
             <ul class="navigation-list">
               <li class="navigation-item">
                 <a class="navigation-link" href="#box2">Обо мне</a>
@@ -59,7 +63,7 @@
             </ul>
           </nav>
         </div>
-      <!--/div-->
+      </div>
     </div>
   </div>
   <header id="box1" class="headers">
@@ -67,12 +71,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="content-headers">
+            <!--div class="content-headers"-->
               <h1 class="header-text-big">Илья Калюжный</h1>
               <h2 class="header-text">Frontend-разработчик - kai3014@gmail.com</h2>
-              <a class="button-bottom-scroll" href="#box2">
+              <!--a class="button-bottom-scroll" href="#box2">
                 <i class="fa fa-angle-double-down fa-stack-2x"></i>
-              </a>
+              </a-->
+              <!--/div-->
             </div>
           </div>
         </div>
@@ -84,7 +89,7 @@
           </div>
         </div>
       </div-->
-    </div>
+    <!--/div-->
   </header>
   <section id="box2" class="about">
     <div class="container">
@@ -120,11 +125,11 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="image-block">
-            <div class="avatar">
-              <img class="" src="images/.jpg" alt=""></img>
-            </div>
-          </div>
+          <!--div class="image-block"-->
+            <!--div class="avatar"-->
+              <img class="image-block" src="images/fot-about.jpg" alt=""></img>
+            <!--/div-->
+          <!--/div-->
         </div>
         <div class="col-md-4">
           <div class="right-services">
@@ -180,17 +185,17 @@
               <li class="skills-ikons">html</li>
               <li class="skills-ikons">css</li>
               <li class="skills-ikons">jquery</li>
-              <li class="skills-ikons">php</li>
-              <li class="skills-ikons">mysql</li>
+              <!--li class="skills-ikons">php</li>
+              <li class="skills-ikons">mysql</li-->
               <li class="skills-ikons">bower</li>
               <li class="skills-ikons">bootstrap</li>
-              <li class="skills-ikons">jade</li>
+              <!--li class="skills-ikons">jade</li-->
               <li class="skills-ikons">gulp</li>
               <li class="skills-ikons">git</li>
               <li class="skills-ikons">adobe photoshop</li>
               <li class="skills-ikons">wordpress</li>
               <li class="skills-ikons">moguta</li>
-              <li class="skills-ikons">drupal</li>
+              <!--li class="skills-ikons">drupal</li-->
             </ul>
           </div>
         </div>
@@ -204,67 +209,98 @@
         <div class="portfolio-content">
           <div class="projects">
             <div class="col-md-8">
-              <li class="project-block">
-                <div class="image-item">
+              <!--li class="project-block"-->
+                <!--div class="image-item"-->
                   <img src="images/uvelirix.png" class="image-sect" alt="">
-                  <div class="image-link">
+                  <!--div class="image-link">
                     <a href="http://uvelirix.hol.es/catalog" class="zoom-link" target="_blank">uvelirix.hol.es</a>
-                  </div>
-                </div>
-              </li>
+                  </div-->
+                <!--/div-->
+              <!--/li-->
             </div>
             <div class="col-md-4">
-              <li class="project-block-text">
-                <div class="">
+              <div class="project-block-text">
+                <div class="project-block-small">
                   <h3 class="header-h3">Интернет-магазин</h3>
                   <div class="project-info">
                     Интернет-магазин ювелирных изделий uvelirix.hol.es реализован
                     на платформе Moguta.CMS с переработкой дизайна.
+                    <p><a href="http://uvelirix.hol.es/catalog" class="imag-link" target="_blank">uvelirix.hol.es</a></p>
                   </div>
                 </div>
-              </li>
+              </div>
             </div>
             <div class="col-md-8">
-              <li class="project-block">
-                <div class="image-item">
+              <!--li class="project-block"-->
+                <!--div class="image-item"-->
                   <img src="images/seliger.png" class="image-sect" alt="">
-                  <div class="image-link">
+                  <!--div class="image-link">
                     <a href="http://селигер-стайл.рф/?page_id=6" class="zoom-link" target="_blank">селигер-стайл.рф</a>
-                  </div>
-                </div>
-              </li>
+                  </div-->
+                <!--/div-->
+              <!--/li-->
             </div>
             <div class="col-md-4">
-              <li class="project-block-text">
-                <div class="">
+              <div class="project-block-text">
+                <div class="project-block-small">
                   <h3 class="header-h3">Представительский сайт</h3>
                   <div class="project-info">
                     Представительский сайт селигер-стайл.рф реализован на
                     платформе Wordpress с переработкой дизайна базового шаблона.
+                    <p><a href="http://селигер-стайл.рф/?page_id=6" class="imag-link" target="_blank">селигер-стайл.рф</a></p>
                   </div>
                 </div>
-              </li>
+              </div>
             </div>
             <div class="col-md-8">
-              <li class="project-block">
-                <div class="image-item">
+              <!--li class="project-block"-->
+                <!--div class="image-item"-->
                   <img src="images/veska.png" class="image-sect" alt="">
-                  <div class="image-link">
+                  <!--div class="image-link">
                     <a href="http://veska-prihod.cerkov.ru/" class="zoom-link" target="_blank">veska-prihod.cerkov.ru</a>
-                  </div>
-                </div>
-              </li>
+                  </div-->
+                <!--/div-->
+              <!--/li-->
             </div>
             <div class="col-md-4">
-              <li class="project-block-text">
-                <div class="">
+              <div class="project-block-text">
+                <div class="project-block-small">
                   <h3 class="header-h3">Церковно-приходской сайт</h3>
                   <div class="project-info">
                     Церковно-приходской сайт храма Николая Чудотворца с. Вёска
                     реализован на платформе Wordpress.
+                    <p><a href="http://veska-prihod.cerkov.ru/" class="imag-link" target="_blank">veska-prihod.cerkov.ru</a></p>
                   </div>
                 </div>
-              </li>
+              </div>
+            </div>
+            <div class="col-md-8">
+                  <img src="images/kursprtf.png" class="image-sect" alt="">
+            </div>
+            <div class="col-md-4">
+              <div class="project-block-text">
+                <div class="project-block-small">
+                  <h3 class="header-h3">Верстка портфолио</h3>
+                  <div class="project-info">
+                    Вёрстка сайта-портфолио курсов LoftSchool
+                    <p><a href="http://www.kalyuzhny.ru/" class="imag-link" target="_blank">www.kalyuzhny.ru</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+                  <img src="images/autodfm.png" class="image-sect" alt="">
+            </div>
+            <div class="col-md-4">
+              <div class="project-block-text">
+                <div class="project-block-small">
+                  <h3 class="header-h3">Верстка страницы автомобильного сайта</h3>
+                  <div class="project-info">
+                    Вёрстка страницы автомобильного шаблона
+                    <p><a href="http://www.kalyuzhny.ru/projectn/" class="imag-link" target="_blank">www.kalyuzhny.ru/projectn</a></p>
+                  </div>
+                </div>
+              </div>
             </div>
             <!--div class="col-md-4">
               <li class="project-block-text">
@@ -357,11 +393,11 @@
 					  </form>
           </div>
         </div>
-        <div class="col-md-12">
+        <!--div class="col-md-12">
           <a class="button-top-scroll" href="#box1">
             <i class="fa fa-angle-double-up fa-stack-2x"></i>
           </a>
-        </div>
+        </div-->
       </div>
     </div>
   </section>
@@ -453,7 +489,7 @@
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
-  <script type="text/javascript">
+  <!--script type="text/javascript">
  $(document).ready(function(){
     $("#menu").on("click","a", function (event) {
         event.preventDefault();
@@ -462,12 +498,31 @@
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
-</script>
+</script-->
 
   <script src="bower/jquery/jquery.js"></script>
   <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
   <script src="js/common.js"></script>
-  <!--script src="js/scroll.js"></script-->
+
+  <!--script type="text/javascript">
+    $(document).ready(function() {
+      var touch = $('#touch-menu');
+      var menu = $('.navigation-list'); //.nav
+
+      $(touch).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+      $(window).resize(function(){
+        var wid = $(window).width();
+        if(wid > 760 $$ menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  </script-->
+
+  <script src="js/scroll.js"></script>
   <!--script src="js/scriptblocker.js"></script-->
   <!--script src="https://code.jquery.com/jquery-1.11.3.min.js"></script-->
 	<!--script src="script.js"></script-->
